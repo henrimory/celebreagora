@@ -1,0 +1,254 @@
+body {
+		 background-color: #000000;	
+
+}
+/**Formataçãod da largura do corpo*/
+div#interface {
+	width: 100%;
+	height:100%;
+	background-color: #000000;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;/*Valores iguais coloca-se apenas uma vez*/
+}
+
+div#imgtopesquer img{
+	width: 100px; /*largura*/
+	height: 100px;/*altura	*/
+	margin-top: -350px;	
+	margin-left:  5%;
+}
+
+@media (max-width: 800px){
+	div#imgtopesquer{
+	display: none;
+	}
+}
+@media (max-width: 800px){
+.cabecalho img.icone{
+	display: none;
+	}
+}
+div.lupa img{
+	margin-right: -200px;
+	margin-top: 100px;
+	width: 50px;
+	height: 50px;
+}
+.pesq label{
+	margin-top: 20px;
+	margin-right: -180px;
+	padding: 0,0,20,0;
+}
+.login label{
+	
+	margin-top:-80px;
+	margin-left: 87%;	
+	text-decoration:none;
+	color:#ffffff;	
+	font-size: 15px;
+	font-weight: bold;
+}
+.login label:hover{
+	
+	color: #DBA901;
+	text-decoration:none;
+}
+
+.modal-footer button.btn1{
+	background-color: #778899;
+	color: #000000;
+}
+.modal-footer button.btn2{
+	background-color:#778899;
+	color: #000000;
+}
+.modal-footer button.btn1:hover{
+	background-color: red;
+	transition: background-color 1s;
+	color: #ffffff;
+}
+.modal-footer button.btn2:hover{
+	background-color:#DBA901;
+	transition: background-color 1s;
+	color: #ffffff;
+}
+/*ajuste da imagem na direita*/
+.cabecalho img.icone {
+	width: 80px; /*largura*/
+	height: 80px;/*altura*/	
+	margin-left: 89%;
+	margin-top:-240px;
+}
+.cabecalho h1 {
+	font-family:  'Edwardian Script ITC';
+	font-size: 80px;
+	font-weight: bold;
+	color:#DBA901;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);	
+	margin-bottom: 10px; 
+	text-align: center;
+	margin-top: 80px;
+}
+
+.cabecalho img{
+	width: 50px; /*largura*/
+	height: 50px;
+	margin-left: 90px;
+	background-color: #000000;
+}
+.cabecalho input{
+	margin-top:10px;
+	background-color: #ffffff;
+	font-weight: bold;
+	color: #000000;	
+	text-decoration:none;
+	margin-right: 100px;
+}
+.mapa iframe{
+	width:100%;
+	height:600px;
+	border:10;
+}
+
+.mapa p{
+	font-family:  'Edwardian Script ITC';
+	width:100%;
+	font-size: 70px;
+	margin-top: 60px;
+	color:#DBA901;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+img.zap{
+	width: 80px;
+	height:80px;
+	margin-top: 60px;
+	float: right;
+	margin-right: -28px;
+}
+nav#menu ul {
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;	
+	top:280px;
+	text-align: center;		
+/*left->esquerda// right direita*/
+}
+nav#menu div li {	
+	display: inline-block;
+	background-color: #778899;
+	padding: 1px;
+	margin: 2px;
+	transition: background-color 1s;
+	border-radius: 10px;
+	text-decoration:none;
+}
+nav#menu li:hover {
+	background-color: #DBA901;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color:#000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+div p{
+	height: 100px;
+	width: 320px;
+	text-indent: 50px;
+	text-align: justify;
+	padding: 5px
+}
+
+
+ div.container div.row {
+ 	margin-top: 100px;	
+	text-align: justify;
+	color:#DBA901;	
+}
+
+div.container div.btn{	
+	transition: background-color 1s;
+	border-radius: 10px;
+	text-decoration:none;
+	margin-top: 80px;
+	color:#000000;
+	text-align: center;
+	
+	font-size: 30px;
+	font-weight: bold;
+}
+/*configuração do botão*/
+div.container div.btn a{
+	color: #000000;
+}
+div.container div.btn a:hover{
+	color: #ffffff;
+	text-decoration:none;
+}
+div.container div.btn:hover{
+	background-color: #DBA901;
+	text-decoration:none;
+	color: #ffffff;	
+	transition: background-color 1s;
+}
+/*configuração dos texto*/
+p a.btn{
+	margin-top: 60px;
+	color:#000000;
+	margin-left: -50px;
+	font-weight: bold;
+}
+p a.btn:hover{
+	background-color: #DBA901
+}
+/*icones redes sociais*/
+footer.rodape  {		
+	
+	text-align: center;	
+	font-style: arial;
+	color: #DBA901;
+	padding: 5px;
+}
+footer.final  h2, strong{
+	
+	font-style: arial;
+	color: #DBA901;
+	text-align: center;	
+	padding: 5px;
+
+}
+.copy{
+	font-style: arial;
+	font-size: 10px;
+	color: #DBA901;
+	text-align: center;	
+}
+footer img{
+	width: 50px;
+	height: 50px;
+}
+.imagem img{
+	width: 300px;
+	height: 200px;
+	padding: 5px;
+	margin-top: 5px;
+	
+}
+.imagem img:hover{
+	-webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+        transform: scale(1.8);
+	
+}
+
+
